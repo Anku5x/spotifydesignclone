@@ -1,0 +1,293 @@
+body{
+  font-family: sans-serif;
+}
+
+.nav-list-items{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-container2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  height: 36px;
+}
+
+.nav-container3{
+  margin-right: 50px;
+}
+
+.spotify-design-text{
+  font-size: x-large;
+}
+
+
+
+.content-one-image{
+  width: 500px;
+  height: 500px;
+  rotate: -5deg;
+ 
+}
+
+.content-container-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 75px;
+
+}
+
+.content-one-text{
+
+  width: 450px;
+  margin-top: 50px; 
+
+}
+
+.heading{
+  font-size: 4rem;
+  margin-top: -30px;
+}
+
+.image-background{
+background-color: palevioletred;
+rotate: 5deg;
+
+}
+
+
+
+.content-one-para{
+  font-size: 1.5rem;
+
+}
+
+.content-two-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.pink-background{
+  background-color: #ffd0d5;
+}
+
+.blue-background{
+  background-color: #a4c9d8;
+}
+
+.orange-background{
+  background-color: #ffbc4b;
+}
+
+.content-two-slideno{
+  display:flex;
+  flex-direction: row;
+}
+
+.loading-bar{
+  display: flex;
+  margin-top: 20px;
+  width: 50px;
+  height: 5px;
+  border-radius: 10%;
+  opacity: 75%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.loading-two{
+ align-content: center;
+}
+.loading-three{
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 0px;
+  display: flex;
+  border: 2px solid;
+  animation-name: loading;
+  animation-iteration-count: infinite;
+  animation-duration: 3.05s;
+}
+
+@keyframes loading {
+  from {width: 0px;}
+  to {width: 45px;}
+}
+
+
+.fwd-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.rwd-button{
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.app-buttons{
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+
+}
+
+.invisible-clicker{ 
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  margin-top: 250px;;
+  margin-left: 50px;
+
+}
+
+.contentthree-containerone{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ 
+.contentthree-containertwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentthree-containerthree{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contentthree-paratext{
+  background-color: black;
+  color: white;
+}
+
+.contentthree-paragreen{
+  background-color: #cdf567;
+  color: white;
+  margin-left: 10px;
+}
+.contentthree-paraelec{
+  background-color: #cdf567;
+  color: white;
+}
+
+.newsletter-out{
+  background-color: #171313;
+  color: white;
+padding-bottom: 100px;
+}
+
+.newsletter-textbox{
+  background-color: transparent;
+  color: white;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid white;
+  width: 200px;
+}
+
+.newsletter-button{
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.newsletter-two{
+  display: flex;
+  margin-left:100px;
+  margin-right: 100px;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+
+.newsletter-one{
+  margin-left:100px;
+  margin-right: 100px;
+}
+
+.newsletter-para{
+  margin-left:950px;
+  margin-top: 100px;
+  color:#757070;
+  
+}
+
+.footer-innerlist{
+  
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 200px;
+}
+
+
+
+.footer-outerbox{
+  background-color: #ffd0d5;
+  margin-bottom: -20px;
+}
+
+.footer-innerbox1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-logorow{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-margintop{
+  margin-top: 50px;
+}
+
+.footer-liststyle{
+  list-style: none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.underline-animation::after{
+  content: '' ;
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #171313;
+  transform: scalex(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+}
+
+.underline-animation:hover::after{
+transform: scalex(1);
+}
+
+.nav-btn{
+  display: none;
+}
