@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/spotify-design-clone/static/css/main.b92f3681.css",
+    "main.js": "/spotify-design-clone/static/js/main.659f6f1f.js",
+    "static/js/787.4c17838f.chunk.js": "/spotify-design-clone/static/js/787.4c17838f.chunk.js",
+    "static/media/Image1.png": "/spotify-design-clone/static/media/Image1.8dcc3e49d8f938006f5d.png",
+    "static/media/Image5.png": "/spotify-design-clone/static/media/Image5.7a640f4dd8583d194d1e.png",
+    "static/media/Image3.png": "/spotify-design-clone/static/media/Image3.8c0e6f1d7d8554b15f05.png",
+    "static/media/Image2.png": "/spotify-design-clone/static/media/Image2.3bcf00059139f290ad6e.png",
+    "static/media/Image4.png": "/spotify-design-clone/static/media/Image4.496a277a89d42bed8704.png",
+    "static/media/ContentFour1.png": "/spotify-design-clone/static/media/ContentFour1.01c02153acd4c81987f2.png",
+    "static/media/Spotify-Logo.png": "/spotify-design-clone/static/media/Spotify-Logo.b5665aa76789c8ed8d65.png",
+    "static/media/ContentFour2.png": "/spotify-design-clone/static/media/ContentFour2.08b9faf7e5e9eee591e3.png",
+    "static/media/Image7.png": "/spotify-design-clone/static/media/Image7.79590acb00ce3c49e6a8.png",
+    "static/media/Image6.png": "/spotify-design-clone/static/media/Image6.155e87711a3df89d58b7.png",
+    "index.html": "/spotify-design-clone/index.html",
+    "main.b92f3681.css.map": "/spotify-design-clone/static/css/main.b92f3681.css.map",
+    "main.659f6f1f.js.map": "/spotify-design-clone/static/js/main.659f6f1f.js.map",
+    "787.4c17838f.chunk.js.map": "/spotify-design-clone/static/js/787.4c17838f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b92f3681.css",
+    "static/js/main.659f6f1f.js"
+  ]
+}
